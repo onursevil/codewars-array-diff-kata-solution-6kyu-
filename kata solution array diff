@@ -1,0 +1,15 @@
+#I was trying to solve this kata about 2 days -_- finally i came up with easy solution.
+
+
+def array_diff(a,b):
+    for c in b:
+        t=a.count(c)
+        while t>0:
+            a.remove(c)
+            t-=1                
+            
+    return a
+#while section is used for spesific loop.
+    
+    
+ 
